@@ -1,6 +1,6 @@
 body {
-  padding: 150px;
-  background-color: #f6efe4;
+  padding: 25%;
+  background-color: #fff9e4;
 }
 .center-div {
   margin: 0 auto;
@@ -9,6 +9,7 @@ body {
 
 .logo {
   fill: none;
+  padding-left: 2vw;
   stroke: blue;
   stroke-width: 3;
   stroke-miterlimit: 10;
@@ -83,7 +84,7 @@ p:first-child:first-letter {
 hr {
   max-width: 700px;
   background-color: blue;
-  height: 5px;
+  height: .5vw;
   margin-top: 3vw;
 
 }
@@ -93,7 +94,7 @@ hr {
    bottom: 0;
    left: 0;
    width: 100%;
-   height: 60px;
+   height: 5vw;
 }
 
 .footer-left {
@@ -101,7 +102,7 @@ hr {
   left: 0;
   margin: 0 auto;
   width: 15%;
-  height: 100px;
+  height: 5vw;
   display: inline-block;
   padding: 0px;
 }
@@ -112,7 +113,7 @@ hr {
   margin: 0 auto;
   right: 0;
   width: 15%;
-  height: 100px;
+  height: 5vw;
   padding: 0px;
 }
 
@@ -123,9 +124,53 @@ hr {
   color: blue;
   font-weight: 600;
 }
+/* MOBILE STYLING */
+
+@media only screen and (max-width: 700px) {
+    body {
+        padding: 15%;
+    }
+
+    h1 {
+      font-size: 3vw;
+    }
+
+    h1 a {
+      font-size: 2.8vw;
+    }
+
+    h1 a:hover {
+      font-size: 2.8vw;
+    }
+
+    .paragraphs {
+      padding: 2vw;
+    }
+    p {
+      font-size: 2vw;
+      line-height: 1.5em;
+    }
+
+    p:first-child:first-letter {
+      color: blue;
+      float: left;
+      font-family: 'Frank Ruhl Libre';
+      font-size: 10vw;
+      line-height: 8vw;
+    }
+
+    hr {
+      height: .5vw;
+      margin-top: 5vw;
+
+    }
+
+    #footer-type{
+      font-size: 1.5vw;
+    }
+}
 
 /* ANIMATION EFFECTS */
-
 
 @-webkit-keyframes wobble {
   16.65% {
