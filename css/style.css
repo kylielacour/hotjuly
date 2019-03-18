@@ -1111,7 +1111,7 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   background: #000;
-  opacity: .2;
+  opacity: 0;
 }
 
 .cover_1 .lead {
