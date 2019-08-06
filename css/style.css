@@ -1,5 +1,9 @@
 /* Social Media Icons */
 
+svg {
+  fill: #d29915;
+}
+
 .social-icons {
   text-align: center;
   }  
