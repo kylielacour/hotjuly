@@ -1,3 +1,17 @@
+/* Audio Player Styling */
+
+figure {
+    padding-bottom: 30px;
+}
+
+figcaption {
+    padding-bottom: 5px;
+}
+
+.audio-players {
+    margin: auto;
+}
+
 /* Bands In Town Styling */
 
 .bit-widget {
