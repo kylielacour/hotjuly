@@ -1,5 +1,15 @@
-/* Bandcamp Styling */
+/* Bands In Town Styling */
 
+.bit-widget {
+    width: 500px!important;
+}
+
+.bit-widget-container {
+    margin: 0 auto!important;
+}
+
+/* Bandcamp Styling */
+/*
 figure {
     margin: 30px;
 }
@@ -20,6 +30,7 @@ iframe {
     width: 300px!important;
   }
 }
+*/
 
 /* Logo Styling */
 
@@ -53,7 +64,7 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   text-decoration: none;
-  color: blue;
+  color: #d29915;
 }
 
 a:hover {
