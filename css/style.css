@@ -1,5 +1,9 @@
 /* Social Media Icons */
 
+.social {
+  display: block;
+}
+
 svg {
   fill: #d29915;
 }
@@ -20,8 +24,8 @@ svg {
   }
 
 .social-icons li img {
-  width:70px;
-  height:70px;
+  width:20px;
+  height:20px;
   margin-right: 20px;
 }
 
