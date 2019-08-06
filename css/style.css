@@ -24,7 +24,7 @@ iframe {
 /* Logo Styling */
 
 .hj-logo {
-  width: 120px;
+  width: 175px;
 }
 
 .footer-copy {
@@ -58,7 +58,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: blue!important;
+  color: #d29915!important;
 }
 
 h1, h2, h3, h4, h5 {
@@ -73,7 +73,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-  color: blue;
+  color: #d29915;
 }
 
 .btn, .form-control {
