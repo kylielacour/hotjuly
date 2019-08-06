@@ -18,6 +18,12 @@ figcaption {
     width: 500px!important;
 }
 
+@media (max-width: 576px) {
+  .bit-widget {
+    width: 250px!important;
+  }
+}
+
 .bit-widget-container {
     margin: 0 auto!important;
 }
