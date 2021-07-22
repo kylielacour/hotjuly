@@ -1,3 +1,7 @@
+.social-p {
+text-align: center;
+}
+
 /* Social Media Icons */
 
 .filter-yellow {
@@ -6,7 +10,7 @@
 
 .social-icons {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0;
   padding-left: 40px;
   padding-right: 40px;
   }  
